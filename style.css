@@ -1,0 +1,33 @@
+form {
+    justify-content: center;
+    display: flex;
+    margin: 40px 50px;
+    border: 3px solid blue;
+    padding: 30px;
+    background-color: rgb(208, 205, 248);
+}
+
+    
+
+.generateBtn {
+    margin-top: 10px;
+    padding-right: 120px;
+    padding-left: 130px;
+    margin-bottom: 10px;
+}
+
+#displayNumber {
+    padding-left: 30px;
+}
+
+.resetBtn {
+    margin-top: 10px;
+    padding-right: 159px;
+    padding-left: 150px;
+}
+
+.allresetBtn {
+    margin-top: 10px;
+    padding-right: 140px;
+    padding-left: 150px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div class="inputTextBox">
+            <input type="number" name="min" id="min" placeholder="Enter Minimum Value..." id="minValue">
+            <input type="number" name="min" id="max" placeholder="Enter Maximum Value..." id="maxValue"><br>
+            <button type="submit" onclick="generateRandomNumber()" class="generateBtn">Generate Again</button><br>
+            Random Number : <input type="text" name="randomNumber" id="displayNumber" maxlength="30"><br>
+            <button type="button" onclick="ResetRangeBox()" class="resetBtn">Reset</button><br>
+            <button type="button" onclick="clearAllBox()" class="allresetBtn">All Reset</button><br>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
